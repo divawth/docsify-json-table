@@ -1,0 +1,38 @@
+{
+    "name": "bell-docsify",
+    "version": "0.0.9",
+    "description": "bell-docsify",
+    "entry": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angeltiva/bell-docsify.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/angeltiva/bell-docsify/issues"
+    },
+    "homepage": "https://github.com/angeltiva/bell-docsify#readme",
+    "edp": {
+        "wwwroot": "/",
+        "depDir": "dep",
+        "srcDir": "src",
+        "loaderAutoConfig": "js,htm,html,tpl,vm,phtml",
+        "loaderUrl": "http://s1.bdstatic.com/r/www/cache/ecom/esl/1-8-2/esl.js",
+        "dependencies": {}
+    },
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-env": "^1.6.1",
+        "bell-ui": "0.0.6",
+        "fs": "0.0.1-security",
+        "rollup": "^0.54.0",
+        "rollup-plugin-babel": "^2.7.1",
+        "rollup-plugin-commonjs": "^6.0.1",
+        "rollup-plugin-node-resolve": "^2.0.0"
+    }
+}
